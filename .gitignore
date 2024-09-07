@@ -1,1 +1,8 @@
+# macOS
+.DS_Store
+
+# ide settings
+.idea/
+
+# readme folder output files
 readme/README.md
