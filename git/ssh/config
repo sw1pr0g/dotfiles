@@ -1,0 +1,5 @@
+Host github.com
+  AddKeysToAgent yes
+  # uncomment if on macos
+  # UseKeychain yes
+  IdentityFile ~/.ssh/key_name
