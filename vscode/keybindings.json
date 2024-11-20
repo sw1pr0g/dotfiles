@@ -1,0 +1,34 @@
+[
+    {
+        "key": "cmd+k cmd+e",
+        "command": "workbench.files.action.focusFilesExplorer",
+        "when": "!view.workbench.explorer.visible"
+    },
+
+    {
+        "key": "cmd+k cmd+g",
+        "command": "workbench.view.scm",
+        "when": "!view.workbench.scm.visible"
+    },
+
+    {
+        "key": "cmd+k cmd+d",
+        "command": "workbench.view.debug",
+        "when": "!view.workbench.debug.visible"
+    },
+
+    {
+        "key": "cmd+k cmd+x",
+        "command": "workbench.view.extensions",
+        "when": "!view.workbench.extensions.visible"
+    },
+
+    {
+        "key": "cmd+k cmd+q",
+        "command": "workbench.action.closeSidebar",
+    },
+    {
+        "key": "cmd+,",
+        "command": "workbench.action.openSettingsJson"
+    },
+]
