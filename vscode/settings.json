@@ -7,7 +7,6 @@
     "editor.accessibilitySupport": "off",
     "editor.codeLens": true,
     "editor.colorDecorators": true,
-    "editor.fontSize": 14,
     "explorer.openEditors.visible": 1,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "selection",
@@ -72,7 +71,6 @@
     "window.newWindowDimensions": "maximized",
     "workbench.editor.labelFormat": "medium",
     "workbench.startupEditor": "none",
-    "workbench.statusBar.visible": false,
     "workbench.tips.enabled": false,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.highlightModifiedTabs": false,
@@ -94,7 +92,6 @@
     "python.terminal.activateEnvironment": false,
     "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "off",
-    "python.analysis.autoImportCompletions": false,
     "python.experiments.enabled": false,
     "python.testing.autoTestDiscoverOnSaveEnabled": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
@@ -103,8 +100,7 @@
     "javascript.updateImportsOnFileMove.enabled": "never",
 
     // Stop updating without my desire:
-    "update.mode": "none",
-
-    // Theme:
-    "workbench.colorTheme": "GitHub Dark Default"
+    "update.mode": "manual",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.colorTheme": "Fleet Dark"
 }
