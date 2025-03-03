@@ -7,7 +7,6 @@
     "editor.accessibilitySupport": "off",
     "editor.codeLens": true,
     "editor.colorDecorators": true,
-    "editor.fontSize": 14,
     "explorer.openEditors.visible": 1,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "selection",
@@ -25,7 +24,6 @@
     "explorer.decorations.badges": false,
     "extensions.ignoreRecommendations": true,
     "diffEditor.renderSideBySide": false,
-    "breadcrumbs.enabled": false,
     "window.commandCenter": false,
     "workbench.activityBar.location": "hidden",
     "editor.scrollbar.vertical": "auto",
@@ -40,19 +38,18 @@
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/.DS_Store": true,
-        "**/node_modules": true,
-        "**/bower_components": true,
         "**/__pycache__": true,
         "**/.cache": true,
-        "**/.idea": true,
-        "**/.pytest_cache": true,
-        "**/.mypy_cache": true,
-        "**/.venv": true,
         "**/.coverage": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
         "**/*.py[co]": true,
-        "**/htmlcoverage": true,
+        "**/bower_components": true,
         "**/docs/build": true,
+        "**/htmlcoverage": true,
+        "**/node_modules": true
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook",
@@ -72,7 +69,6 @@
     "window.newWindowDimensions": "maximized",
     "workbench.editor.labelFormat": "medium",
     "workbench.startupEditor": "none",
-    "workbench.statusBar.visible": false,
     "workbench.tips.enabled": false,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.highlightModifiedTabs": false,
@@ -94,7 +90,6 @@
     "python.terminal.activateEnvironment": false,
     "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "off",
-    "python.analysis.autoImportCompletions": false,
     "python.experiments.enabled": false,
     "python.testing.autoTestDiscoverOnSaveEnabled": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
@@ -103,8 +98,9 @@
     "javascript.updateImportsOnFileMove.enabled": "never",
 
     // Stop updating without my desire:
-    "update.mode": "none",
+    "update.mode": "manual",
 
-    // Theme:
-    "workbench.colorTheme": "GitHub Dark Default"
+    // Icons and Theme:
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.colorTheme": "Fleet Dark"
 }
