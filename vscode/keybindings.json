@@ -54,5 +54,5 @@
         "key": "cmd+o",
         "command": "-workbench.action.files.openFileFolder",
         "when": "isMacNative && openFolderWorkspaceSupport"
-    },
+    }
 ]
