@@ -1,0 +1,80 @@
+tap "homebrew/bundle"
+tap "homebrew/services"
+
+# Get a file from HTTP, HTTPS or FTP server
+brew "curl"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# GitLab command-line tool
+brew "glab"
+# Mac App Store command-line interface
+brew "mas"
+# Free (GNU) replacement for Pico text editor
+brew "nano"
+# Platform built on V8 to build network applications
+brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Go programming language
+brew "go"
+# System info tool
+brew "neofetch"
+# Python version management
+brew "pyenv"
+# Internet file retriever
+brew "wget"
+# UNIX shell (command interpreter)
+brew "zsh"
+
+# Video editing and design
+cask "capcut"
+# Voice and text chat
+cask "discord"
+# Containerized app platform
+cask "docker"
+# Clipboard manager
+cask "flycut"
+# Live streaming and screen recording
+cask "obs"
+# Messaging app
+cask "telegram"
+# Code editor
+cask "visual-studio-code"
+# Flash OS images to drives
+cask "balenaetcher"
+# Virtual machines and emulators
+cask "utm"
+# Open source team messenger
+cask "rocket-chat"
+# Team messenger
+cask "slack"
+# BitTorrent client
+cask "qbittorrent"
+# Disk usage viewer
+cask "disk-inventory-x"
+# Open source media player
+cask "mpv"
+# ChatGPT desktop client
+cask "chatgpt"
+# Spotify media player
+cask "spotify"
+
+mas "AmneziaWG", id: 6478942365
+mas "Delete Apps", id: 1033808943
+mas "HazeOver", id: 430798174
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
+mas "GarageBand", id: 408709785
+
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "golang.Go"
+vscode "ms-vscode.vscode-typescript-next"
+vscode "CHENJIE.fleet-dark"
