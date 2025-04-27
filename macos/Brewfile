@@ -1,4 +1,3 @@
-tap "homebrew/bundle"
 tap "homebrew/services"
 
 # Get a file from HTTP, HTTPS or FTP server
@@ -62,10 +61,11 @@ cask "mpv"
 cask "chatgpt"
 # Spotify media player
 cask "spotify"
+# Minimalistic web browser
+cask "zen-browser"
 
 mas "AmneziaWG", id: 6478942365
 mas "Delete Apps", id: 1033808943
-mas "HazeOver", id: 430798174
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
