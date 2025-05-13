@@ -63,6 +63,8 @@ cask "chatgpt"
 cask "spotify"
 # Minimalistic web browser
 cask "zen-browser"
+# Best launcher for games
+cask "steam"
 
 mas "AmneziaWG", id: 6478942365
 mas "Delete Apps", id: 1033808943
