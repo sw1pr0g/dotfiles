@@ -65,6 +65,8 @@ cask "spotify"
 cask "zen-browser"
 # Best launcher for games
 cask "steam"
+# Minimalistic and crossplatform terminal emulator
+cask "kitty"
 
 mas "AmneziaWG", id: 6478942365
 mas "Delete Apps", id: 1033808943
