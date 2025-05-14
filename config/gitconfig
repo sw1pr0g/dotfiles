@@ -1,0 +1,33 @@
+[core]
+  autocrlf = input
+  safecrlf = warn
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
+[commit]
+  gpgsign = true
+[push]
+  default = simple
+[fetch]
+  # Prune branches that no longer exist remote. Same for tags.
+  prune = true
+  pruneTags = true
+[user]
+  useConfigOnly = true
+[diff]
+  indentHeuristic = on
+  noprefix = true
+  colorMoved = default
+[diff "nodiff"]
+  command = true
+[diff "generated"]
+  binary = true
+[pull]
+  rebase = false
+[init]
+  defaultBranch = dev
+
+# Allow local customizations in the .gitconfig_local file
+[include]
+  path = ~/.gitconfig_local

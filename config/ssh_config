@@ -1,0 +1,4 @@
+Host *
+  UseKeychain yes # MacOS-specific
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/sw1pr0g
