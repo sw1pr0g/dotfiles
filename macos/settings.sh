@@ -51,6 +51,11 @@ defaults write com.apple.dock autohide-delay -float 0
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Make status icons smaller, so they will take less space:
+# https://flaky.build/built-in-workaround-for-applications-hiding-under-the-macbook-pro-notch
+defaults write -globalDomain NSStatusItemSelectionPadding -int 12
+defaults write -globalDomain NSStatusItemSpacing -int 12
+
 
 # === Finder ===
 
@@ -100,21 +105,6 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 	General -bool true \
 	OpenWith -bool true \
 	Privileges -bool true
-
-
-# === Safari ===
-
-# Privacy: don’t send search queries to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-
-# Improve Safari security
-defaults write com.apple.Safari \
-  com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled \
-  -bool false
-defaults write com.apple.Safari \
-  com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles \
-  -bool false
 
 
 # === Text editing ===

@@ -71,6 +71,8 @@ cask "zen-browser"
 cask "steam"
 # Minimalistic and crossplatform terminal emulator
 cask "kitty"
+# Utility to hide the notch
+cask "topnotch"
 
 mas "AmneziaWG", id: 6478942365
 mas "Delete Apps", id: 1033808943
