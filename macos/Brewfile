@@ -1,5 +1,3 @@
-tap "homebrew/services"
-
 # Get a file from HTTP, HTTPS or FTP server
 brew "curl"
 # GitHub command-line tool
@@ -28,6 +26,12 @@ brew "pyenv"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Cryptographic library based on the code from GnuPG
+brew "libgcrypt"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Library access to GnuPG
+brew "gpgme"
 
 # Video editing and design
 cask "capcut"
