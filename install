@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Exporting the specific shell we want to work with:
+
+SHELL='/bin/bash'
+export SHELL
