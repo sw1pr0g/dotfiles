@@ -32,7 +32,8 @@ brew "libgcrypt"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
-
+# Universal web browser
+cask "google-chrome"
 # Video editing and design
 cask "capcut"
 # Voice and text chat
