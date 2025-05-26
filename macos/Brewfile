@@ -22,6 +22,8 @@ brew "go"
 brew "neofetch"
 # Python version management
 brew "pyenv"
+# Python dependency management and packaging tool  
+brew "poetry"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
@@ -81,6 +83,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 mas "GarageBand", id: 408709785
+mas "Steam Link", id: 1246969117
 
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
