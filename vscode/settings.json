@@ -1,118 +1,163 @@
 {
-    // Debug:
-    "debug.allowBreakpointsEverywhere": true,
-    "debug.console.closeOnEnd": true,
+  // Debug
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.javascript.codelens.npmScripts": "never",
+  "debug.console.closeOnEnd": true,
 
-    // Editor:
-    "editor.accessibilitySupport": "off",
-    "editor.codeLens": true,
-    "editor.colorDecorators": true,
-    "explorer.openEditors.visible": 1,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "selection",
-    "explorer.compactFolders": false,
-    "editor.overviewRulerBorder": false,
-    "editor.rulers": [80],
-    "editor.scrollBeyondLastLine": false,
-    "editor.snippetSuggestions": "none",
-    "editor.cursorSurroundingLines": 3,
-    "editor.useTabStops": true,
-    "editor.formatOnPaste": false,
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 80,
-    "editor.stickyScroll.enabled": false,
-    "explorer.decorations.badges": false,
-    "extensions.ignoreRecommendations": true,
-    "diffEditor.renderSideBySide": false,
-    "window.commandCenter": false,
-    "workbench.activityBar.location": "hidden",
-    "editor.scrollbar.vertical": "auto",
-    "editor.scrollbar.horizontal": "hidden",
+  // Editor
+  "editor.accessibilitySupport": "off",
+  "editor.codeLens": true,
+  "editor.glyphMargin": false,
+  "editor.colorDecorators": false,
+  "editor.cursorBlinking": "solid",
+  "editor.dragAndDrop": false,
+  "editor.folding": false,
+  "editor.showFoldingControls": "mouseover",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.renderLineHighlight": "none",
+  "editor.hideCursorInOverviewRuler": false,
+  "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.renderWhitespace": "selection",
+  "editor.overviewRulerBorder": false,
+  "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": false,
+  "editor.snippetSuggestions": "none",
+  "editor.cursorSurroundingLines": 3,
+  "editor.useTabStops": true,
+  "editor.formatOnPaste": false,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "editor.stickyScroll.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "hidden",
 
-    // Files:
-    "files.associations": {
-        ".babelrc": "jsonc",
-        ".eslintrc": "jsonc",
-        "*.pyi": "python",
-        "*.bats": "shellscript",
-    },
-    "files.autoSave": "onFocusChange",
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.cache": true,
-        "**/.coverage": true,
-        "**/.DS_Store": true,
-        "**/.idea": true,
-        "**/.mypy_cache": true,
-        "**/.pytest_cache": true,
-        "**/*.py[co]": true,
-        "**/bower_components": true,
-        "**/docs/build": true,
-        "**/htmlcoverage": true,
-        "**/node_modules": true
-    },
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook",
-    },
+  // Editor - Go To Location
+  "editor.gotoLocation.multipleReferences": "peek",
+  "editor.gotoLocation.multipleDefinitions": "peek",
+  "editor.gotoLocation.multipleDeclarations": "peek",
+  "editor.gotoLocation.multipleImplementations": "peek",
+  "editor.gotoLocation.multipleTypeDefinitions": "peek",
 
-    // Stats and telemetry:
-    "telemetry.telemetryLevel": "off",
+  // Explorer
+  "explorer.openEditors.visible": 1,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
 
-    // Terminal:
-    "terminal.integrated.shellIntegration.enabled": false,
-    "terminal.integrated.stickyScroll.enabled": false,
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.integrated.defaultProfile.linux": "bash",
+  // Workbench
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Fleet Dark",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "medium",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.highlightModifiedTabs": false,
+  "workbench.editor.showIcons": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.decorations.colors": false,
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.hover.delay": 10000,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.enableStickyScroll": false,
 
-    // Main editor:
-    "window.clickThroughInactive": false,
-    "window.newWindowDimensions": "maximized",
-    "workbench.editor.labelFormat": "medium",
-    "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
-    "workbench.tree.renderIndentGuides": "none",
-    "workbench.editor.highlightModifiedTabs": false,
-    "workbench.editor.decorations.badges": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.empty.hint": "hidden",
-    "workbench.layoutControl.enabled": false,
+  // Files
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    "*.pyi": "python",
+    "*.bats": "shellscript"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.cache": true,
+    "**/.coverage": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/*.py[co]": true,
+    "**/bower_components": true,
+    "**/docs/build": true,
+    "**/htmlcoverage": true,
+    "**/node_modules": true
+  },
 
-    // Tools, extensions, and languages:
-    "problems.decorations.enabled": true,
-    "chat.agent.enabled": true,
-    "git.autofetch": false,
-    "git.showInlineOpenFileAction": false,
-    "git.autorefresh": true,
-    "git.decorations.enabled": true,
-    "git.openRepositoryInParentFolders": "never",
-    "python.analysis.completeFunctionParens": false,
-    "python.createEnvironment.trigger": "off",
-    "python.terminal.activateEnvInCurrentTerminal": false,
-    "python.terminal.activateEnvironment": false,
-    "python.languageServer": "Pylance",
-    "python.analysis.typeCheckingMode": "off",
-    "python.experiments.enabled": false,
-    "python.testing.autoTestDiscoverOnSaveEnabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "typescript.suggest.autoImports": false,
-    "javascript.suggest.autoImports": false,
-    "javascript.updateImportsOnFileMove.enabled": "never",
+  // DON'T WATCH TO ME
+  "telemetry.telemetryLevel": "off",
 
-    // Stop updating without my desire:
-    "update.mode": "manual",
-    "workbench.colorTheme": "Fleet Dark",
-    "explorer.fileNesting.patterns": {
-        "*.ts": "${capture}.js",
-        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-        "*.jsx": "${capture}.js",
-        "*.tsx": "${capture}.ts",
-        "tsconfig.json": "tsconfig.*.json",
-        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
-        "*.sqlite": "${capture}.${extname}-*",
-        "*.db": "${capture}.${extname}-*",
-        "*.sqlite3": "${capture}.${extname}-*",
-        "*.db3": "${capture}.${extname}-*",
-        "*.sdb": "${capture}.${extname}-*",
-        "*.s3db": "${capture}.${extname}-*"
-    }
+  // Terminal
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "bash",
+
+  // Window
+  "window.commandCenter": false,
+  "window.clickThroughInactive": false,
+  "window.newWindowDimensions": "maximized",
+
+  // Git
+  "git.autofetch": false,
+  "git.autorefresh": true,
+  "git.showInlineOpenFileAction": false,
+  "git.decorations.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+
+  // Python
+  "python.analysis.completeFunctionParens": false,
+  "python.analysis.typeCheckingMode": "off",
+  "python.createEnvironment.trigger": "off",
+  "python.terminal.activateEnvInCurrentTerminal": false,
+  "python.terminal.activateEnvironment": false,
+  "python.languageServer": "Pylance",
+  "python.experiments.enabled": false,
+  "python.testing.autoTestDiscoverOnSaveEnabled": false,
+
+  // TypeScript / JavaScript
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.suggest.autoImports": false,
+  "javascript.suggest.autoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  // Notebook
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+
+  // Merge conflicts
+  "merge-conflict.autoNavigateNextConflict.enabled": false,
+
+  // Problems panel
+  "problems.decorations.enabled": true,
+
+  // Chat
+  "chat.agent.enabled": false,
+
+  // DON'T RECOMMEND ME
+  "extensions.ignoreRecommendations": true,
+
+  // STOP UPDATING WITHOUT MY DESIRE
+  "update.mode": "manual"
 }
