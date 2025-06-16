@@ -91,8 +91,8 @@ mas "Xcode", id: 497799835
 mas "GarageBand", id: 408709785
 mas "Steam Link", id: 1246969117
 
+vscode "CHENJIE.fleet-dark"
+vscode "golang.Go"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
-vscode "golang.Go"
 vscode "ms-vscode.vscode-typescript-next"
-vscode "CHENJIE.fleet-dark"

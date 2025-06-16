@@ -155,7 +155,7 @@
   // Chat
   "chat.agent.enabled": false,
 
-  // DON'T RECOMMEND ME
+  // DON'T RECOMMEND ME EXTENSIONS
   "extensions.ignoreRecommendations": true,
 
   // STOP UPDATING WITHOUT MY DESIRE
