@@ -34,6 +34,10 @@ brew "libgcrypt"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
+# Extremely fast Python package installer and resolver
+brew "uv"
+# AI terminal coding assistant
+brew "aider"
 # Universal web browser
 cask "google-chrome"
 # Video editing and design
