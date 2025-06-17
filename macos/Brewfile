@@ -10,6 +10,8 @@ brew "glab"
 brew "mas"
 # Free (GNU) replacement for Pico text editor
 brew "nano"
+# Code formatting tool for C/C++
+brew "clang-format"
 # Platform built on V8 to build network applications
 brew "node"
 # Manage multiple Node.js versions
