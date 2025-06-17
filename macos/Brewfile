@@ -74,12 +74,12 @@ cask "spotify"
 cask "zen-browser"
 # Best launcher for games
 cask "steam"
-# Minimalistic and crossplatform terminal emulator
-cask "kitty"
 # Utility to hide the notch
 cask "topnotch"
-#Open source API development ecosystem
+# Open source API development ecosystem
 cask "hoppscotch"
+# Best programming font
+cask "font-fira-code"
 
 mas "AmneziaWG", id: 6478942365
 mas "Delete Apps", id: 1033808943
