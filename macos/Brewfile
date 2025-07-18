@@ -16,16 +16,14 @@ brew "clang-format"
 brew "node"
 # Manage multiple Node.js versions
 brew "nvm"
-# Execute binaries from Python packages in isolated environments
-brew "pipx"
 # Go programming language
 brew "go"
 # System info tool
 brew "neofetch"
 # Python version management
 brew "pyenv"
-# Python dependency management and packaging tool  
-brew "poetry"
+# Extremely fast Python package installer and resolver
+brew "uv"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
@@ -36,10 +34,8 @@ brew "libgcrypt"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
-# Extremely fast Python package installer and resolver
-brew "uv"
-# AI terminal coding assistant
-brew "aider"
+# Tool for running LLMs locally
+brew "ollama"
 # Universal web browser
 cask "google-chrome"
 # Video editing and design
@@ -62,38 +58,36 @@ cask "balenaetcher"
 cask "utm"
 # Open source team messenger
 cask "rocket-chat"
-# Team messenger
-cask "slack"
 # BitTorrent client
 cask "qbittorrent"
-# Disk usage viewer
-cask "disk-inventory-x"
 # Open source media player
 cask "mpv"
 # Spotify media player
 cask "spotify"
 # Minimalistic web browser
 cask "zen-browser"
-# Best launcher for games
-cask "steam"
 # Utility to hide the notch
-cask "topnotch"
+cask "topnotch" 
 # Open source API development ecosystem
 cask "hoppscotch"
 # Best programming font
 cask "font-fira-code"
+# Open source database management tool
+cask "dbeaver-community"
 
 mas "AmneziaWG", id: 6478942365
 mas "Delete Apps", id: 1033808943
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 mas "GarageBand", id: 408709785
-mas "Steam Link", id: 1246969117
 
+vscode "ms-vscode.cpptools"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "golang.Go"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
 vscode "ms-vscode.vscode-typescript-next"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.python"
+vscode "ms-python.debugpy"

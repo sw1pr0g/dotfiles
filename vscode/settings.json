@@ -152,9 +152,6 @@
   // Problems panel
   "problems.decorations.enabled": true,
 
-  // Chat
-  "chat.agent.enabled": false,
-
   // DON'T RECOMMEND ME EXTENSIONS
   "extensions.ignoreRecommendations": true,
 

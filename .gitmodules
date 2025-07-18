@@ -1,0 +1,6 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathaley/dotbot
+[submodule "dotbot-brewfile"]
+	path = dotbot-brewfile
+	url

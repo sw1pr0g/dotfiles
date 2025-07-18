@@ -33,6 +33,12 @@ defaults write -g AppleActionOnDoubleClick 'Maximize'
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
+# Disable cursor blinking:
+defaults write NSGlobalDomain NSTextInsertionPointBlinkPeriodOn -int 0
+defaults write NSGlobalDomain NSTextInsertionPointBlinkPeriodOff -int 0
+
+# Enable low power mode when on battery:
+sudo pmset -b lowpowermode 1
 
 # === Dock ===
 
@@ -55,7 +61,6 @@ defaults write com.apple.dock autohide -bool true
 # https://flaky.build/built-in-workaround-for-applications-hiding-under-the-macbook-pro-notch
 defaults write -globalDomain NSStatusItemSelectionPadding -int 12
 defaults write -globalDomain NSStatusItemSpacing -int 12
-
 
 # === Finder ===
 
@@ -106,12 +111,10 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 	OpenWith -bool true \
 	Privileges -bool true
 
-
 # === Text editing ===
 
 # Disable auto-capitalization:
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
-
 
 # Restarting apps:
 echo 'Restarting apps...'
