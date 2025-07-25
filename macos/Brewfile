@@ -77,6 +77,7 @@ cask "dbeaver-community"
 
 mas "AmneziaWG", id: 6478942365
 mas "Delete Apps", id: 1033808943
+mas "G Authenticator App", id: 6479869138
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
