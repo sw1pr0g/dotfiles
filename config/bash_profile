@@ -3,10 +3,5 @@
 # I do not use bash directly.
 # So this file only includes `brew` binaries.
 
-# MacOS:
 PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 export PATH
-
-# Arch Linux:
-# [[ -f ~/.bashrc ]] && . ~/.bashrc
-# export GPG_TTY=$(tty)

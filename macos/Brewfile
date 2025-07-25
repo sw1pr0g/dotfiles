@@ -34,8 +34,6 @@ brew "libgcrypt"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
-# Tool for running LLMs locally
-brew "ollama"
 # Universal web browser
 cask "google-chrome"
 # Video editing and design
@@ -45,7 +43,7 @@ cask "discord"
 # Containerized app platform
 cask "docker"
 # Clipboard manager
-cask "flycut"
+cask "maccy"
 # Live streaming and screen recording
 cask "obs"
 # Messaging app
@@ -56,6 +54,8 @@ cask "visual-studio-code"
 cask "balenaetcher"
 # Virtual machines and emulators
 cask "utm"
+# Tool for running LLMs locally
+cask "ollama-app"
 # Open source team messenger
 cask "rocket-chat"
 # BitTorrent client
@@ -84,10 +84,7 @@ mas "Xcode", id: 497799835
 mas "GarageBand", id: 408709785
 
 vscode "ms-vscode.cpptools"
-vscode "github.copilot"
-vscode "github.copilot-chat"
 vscode "golang.Go"
 vscode "ms-vscode.vscode-typescript-next"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.python"
-vscode "ms-python.debugpy"
