@@ -32,15 +32,18 @@ plugins=(
 # Sourcing the Oh-My-ZSH source:
 source $ZSH/oh-my-zsh.sh
 
-# Sourcing Homebrew source:
-export PATH="$PATH:/opt/homebrew/bin"
+# This PATH needs to be set before all other modifications:
+export PATH='/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 
-# Sourcing nvm source:
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || p$
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# Sourcing GPG_TTY source:
-export GPG_TTY=$(tty)
-# Sourcing nvm source:
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+# === Shell parts ===
+
+source "$HOME/.shell/.std"  # should be the first one
+source "$HOME/.shell/.exports"
+
+# === Local variables and overrides ===
+
+if [[ -f "$HOME/.shell_env_local" ]]; then
+  source "$HOME/.shell_env_local"
+fi
+

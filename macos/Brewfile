@@ -30,6 +30,8 @@ brew "wget"
 brew "zsh"
 # Cryptographic library based on the code from GnuPG
 brew "libgcrypt"
+# Passphrase entry dialog utilizing the Assuan protocol
+brew "pinentry"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Library access to GnuPG

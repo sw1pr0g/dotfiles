@@ -26,9 +26,10 @@ run_dotbot () {
   config="$1"
 
   "$BASEDIR/$DOTBOT_DIR/$DOTBOT_BIN" \
-    -d "$BASEDIR" \
-    --plugin-dir dotbot-brewfile \
-    -c "$config" $ARGS
+  -d "$BASEDIR" \
+  --plugin-dir dotbot-brewfile \
+  -v \
+  -c "$config" $ARGS
 }
 
 run_dotbot 'steps/terminal.yml' || true

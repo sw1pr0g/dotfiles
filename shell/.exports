@@ -1,0 +1,60 @@
+#!/usr/bin/env zsh
+
+# `.exports` is used to provide custom variables.
+
+
+# === Path modifications ===
+
+# These lines should be the first ones!
+
+# Adds `pipx` binary files:
+PATH="$HOME/.local/bin:$PATH"
+
+# Adds `poetry` binary, should be added to the end:
+PATH="$HOME/.poetry/bin:$PATH"
+
+
+# === General ===
+
+# Editor:
+export EDITOR="$(which vim)"
+
+# GPG:
+export GPG_TTY="$(tty)"
+eval "$(gpg-agent --daemon --allow-preset-passphrase > /dev/null 2>&1)"
+
+# Homebrew:
+export HOMEBREW_NO_ANALYTICS=1  # disables statistics that brew collects
+
+# Docker:
+export DOCKER_CLI_HINTS=false  # disable ads in CLI :(
+
+
+# === Version managers ===
+
+# nvm:
+export NVM_DIR="$HOME/.nvm"
+if [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ]; then
+  source "$(brew --prefix)/opt/nvm/nvm.sh"
+fi
+
+
+# === Histories ===
+
+# Enable persistent REPL history for `node`.
+export NODE_REPL_HISTORY="$HOME/.node_history"
+# Use sloppy mode by default, matching web browsers.
+export NODE_REPL_MODE='sloppy'
+
+
+# === Code highlight ===
+# https://github.com/zsh-users/zsh-syntax-highlighting
+
+# We won't highlight code longer than 200 chars, because it is slow:
+export ZSH_HIGHLIGHT_MAXLENGTH=200
+
+
+# === PATH ===
+
+# This should be the last line:
+export PATH
