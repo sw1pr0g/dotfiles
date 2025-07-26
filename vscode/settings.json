@@ -64,7 +64,6 @@
 
   // Workbench
   "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "Fleet Dark",
   "workbench.editor.enablePreview": false,
   "workbench.editor.labelFormat": "medium",
   "workbench.editor.tabActionCloseVisibility": false,
@@ -156,5 +155,6 @@
   "extensions.ignoreRecommendations": true,
 
   // STOP UPDATING WITHOUT MY DESIRE
-  "update.mode": "manual"
+  "update.mode": "manual",
+  "update.showReleaseNotes": false
 }

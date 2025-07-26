@@ -1,0 +1,56 @@
+---
+
+- clean: ['~']
+
+# See https://ohmyz.sh
+- shell:
+  - command: |
+      sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" || true
+    description: Install Oh-My-Zsh
+    stdout: true
+    stderr: true
+
+- link:
+  ~/.bash_profile: config/bash_profile
+  ~/.bashrc: config/bashrc
+  ~/.zshrc:
+    path: config/zshrc
+    force: true
+  ~/.zshenv:
+    path: config/zshenv
+    force: true
+
+  ~/.hushlogin: config/hushlogin
+
+  # Git:
+  ~/.gitconfig: config/gitconfig
+  ~/.gitignore_global: config/gitignore
+  ~/.gitattributes_global: config/gitattributes
+
+  # Tools:
+  ~/.psqlrc: config/psqlrc
+  ~/.sqliterc: config/sqliterc
+
+  # Editors:
+  ~/.editorconfig: config/editorconfig
+
+  # SSH:
+  ~/.ssh/config:
+    path: config/ssh_config
+    force: true
+    create: true
+
+  # GPG:
+  ~/.gnupg/gpg-agent.conf:
+    path: config/gpgagent
+    force: true
+    create: true
+
+# See https://docs.astral.sh/uv/
+- shell:
+  - command: |
+      curl -LsSf https://astral.sh/uv/install.sh | sh
+    description: Install uv
+    stdout: true
+    stderr: true
+  

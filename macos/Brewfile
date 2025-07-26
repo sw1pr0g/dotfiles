@@ -75,14 +75,14 @@ cask "font-fira-code"
 # Open source database management tool
 cask "dbeaver-community"
 
-mas "AmneziaWG", id: 6478942365
 mas "Delete Apps", id: 1033808943
+mas "GarageBand", id: 408709785
 mas "G Authenticator App", id: 6479869138
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Wireguard", id: 1451685025
 mas "Xcode", id: 497799835
-mas "GarageBand", id: 408709785
 
 vscode "ms-vscode.cpptools"
 vscode "golang.Go"

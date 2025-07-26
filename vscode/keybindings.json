@@ -22,11 +22,6 @@
         "command": "workbench.view.extensions",
         "when": "!view.workbench.extensions.visible"
     },
-
-    {
-        "key": "cmd+k cmd+q",
-        "command": "workbench.action.closeSidebar",
-    },
     {
         "key": "cmd+,",
         "command": "workbench.action.openSettingsJson"
@@ -54,5 +49,11 @@
         "key": "cmd+o",
         "command": "-workbench.action.files.openFileFolder",
         "when": "isMacNative && openFolderWorkspaceSupport"
-    }
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "-workbench.action.chat.openAgent",
+        "when": "!view.workbench.panel.chat.view.copilot.visible"
+    },
+
 ]
