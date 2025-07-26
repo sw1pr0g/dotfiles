@@ -45,12 +45,4 @@
     path: config/gpgagent
     force: true
     create: true
-
-# See https://docs.astral.sh/uv/
-- shell:
-  - command: |
-      curl -LsSf https://astral.sh/uv/install.sh | sh
-    description: Install uv
-    stdout: true
-    stderr: true
   
