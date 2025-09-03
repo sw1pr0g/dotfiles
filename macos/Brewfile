@@ -18,14 +18,12 @@ brew "node"
 brew "nvm"
 # Go programming language
 brew "go"
-# System info tool
-brew "neofetch"
+# Configurable static site generator
+brew "hugo"
 # Python version management
 brew "pyenv"
 # Extremely fast Python package installer and resolver
 brew "uv"
-# Internet file retriever
-brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Cryptographic library based on the code from GnuPG
@@ -56,8 +54,6 @@ cask "visual-studio-code"
 cask "balenaetcher"
 # Virtual machines and emulators
 cask "utm"
-# Tool for running LLMs locally
-cask "ollama-app"
 # Open source team messenger
 cask "rocket-chat"
 # BitTorrent client
@@ -79,7 +75,6 @@ cask "dbeaver-community"
 
 mas "Delete Apps", id: 1033808943
 mas "GarageBand", id: 408709785
-mas "G Authenticator App", id: 6479869138
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541

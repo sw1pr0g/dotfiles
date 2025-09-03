@@ -2,20 +2,46 @@
 
 ## Contents
 
-- all my `brew` dependencies including: applications, fonts, etc. See [`Brewfile`](https://github.com/sw1pr0g/dotfiles/blob/dev/macos/Brewfile)
-- all my `macos` settings. See [`macos`](https://github.com/sw1pr0g/dotfiles/blob/dev/macos/settings.sh)
-- all my shell configuration. See [`shell/`](https://github.com/sw1pr0g/dotfiles/tree/dev/shell) and [`config/zshrc`](https://github.com/sw1pr0g/dotfiles/blob/dev/config/zshrc)
-- all my `vscode` configuration. See [`vscode/`](https://github.com/sw1pr0g/dotfiles/tree/dev/vscode)
+- `macos` settings including `brew` dependencies. 
+See [`macos/`](https://github.com/sw1pr0g/dotfiles/blob/dev/macos/settings.sh)
+- `linux` settings including `flatpak` dependencies. 
+See [`linux/`](https://github.com/sw1pr0g/dotfiles/blob/dev/linux)
+<!-- - `brew` dependencies including: applications, fonts, etc. 
+See [`macos/Brewfile`](https://github.com/sw1pr0g/dotfiles/blob/dev/macos/Brewfile) -->
+- shell configuration. 
+See [`shell/`](https://github.com/sw1pr0g/dotfiles/tree/dev/shell) 
+and [`config/zshrc`](https://github.com/sw1pr0g/dotfiles/blob/dev/config/zshrc)
+- `zen` configuration. 
+See [`firefox/](https://github.com/sw1pr0g/dotfiles/tree/dev/firefox)
+- `vscode` configuration. 
+See [`vscode/`](https://github.com/sw1pr0g/dotfiles/tree/dev/vscode)
 
 ## Installation
 
-I am using [`dotbot`](https://github.com/anishathalye/dotbot/)
-to set things up. Steps:
+Setup is managed [`dotbot`](https://github.com/anishathalye/dotbot/). Follow
+these steps:
 
-0. Decide what you want to install: comment out `run_dotbot 'steps/...'` that you don't need
-1. Clone this repo with: `git clone https://github.com/sw1pr0g/dotfiles .dotfiles`
-2. `cd .dotfiles/`
-3. Run: [`bash ./install`](https://github.com/sw1pr0g/dotfiles/blob/dev/install)
+1. Decide what you want 
+to [`install`](https://github.com/sw1pr0g/dotfiles/tree/dev/install): 
+comment out `run_dotbot 'steps/...'` that you don't need
+2. Run: `bash ./install`
+
+## MacOS
+
+## Linux
+
+## CLI
+
+## Zen (firefox based)
+
+## VSCode
+
+I used JetBrains IDEs. They were powerful and beautiful. But I realized 
+they’re too heavy and overloaded with tools I don’t always need.
+
+Now I’m using [`vscode`](https://github.com/microsoft/vscode), and I love how 
+clean and fast it is. 
+Here’s my current `vscode` setup:
 
 ## Local configuration
 
@@ -30,3 +56,4 @@ Here's the full list:
 ## License
 
 [WTFPL](http://www.wtfpl.net) - DO WHAT THE FUCK YOU WANT TO
+ 
