@@ -54,6 +54,6 @@
         "key": "shift+cmd+a",
         "command": "-workbench.action.chat.openAgent",
         "when": "!view.workbench.panel.chat.view.copilot.visible"
-    },
+    }
 
 ]

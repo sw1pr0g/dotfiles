@@ -74,7 +74,7 @@ cask "font-fira-code"
 cask "dbeaver-community"
 
 mas "Delete Apps", id: 1033808943
-mas "GarageBand", id: 408709785
+mas "GarageBand", id: 682658836
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
