@@ -104,7 +104,7 @@
   },
 
   // DON'T WATCH TO ME
-  "telemetry.telemetryLevel": "off",
+  // "telemetry.telemetryLevel": "off",
 
   // Terminal
   "terminal.integrated.shellIntegration.enabled": false,
@@ -156,5 +156,6 @@
 
   // STOP UPDATING WITHOUT MY DESIRE
   "update.mode": "manual",
-  "update.showReleaseNotes": false
+  "update.showReleaseNotes": false,
+  "workbench.sideBar.location": "right"
 }

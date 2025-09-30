@@ -22,6 +22,8 @@ brew "go"
 brew "hugo"
 # Python version management
 brew "pyenv"
+# Python package installer and resolver
+brew "poetry"
 # Extremely fast Python package installer and resolver
 brew "uv"
 # UNIX shell (command interpreter)
@@ -34,10 +36,13 @@ brew "pinentry"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
+
+# ChatGPT desktop application
+cask "chatgpt"
+# Terminal AI code assistant
+cask "claude-code"
 # Universal web browser
 cask "google-chrome"
-# Video editing and design
-cask "capcut"
 # Voice and text chat
 cask "discord"
 # Containerized app platform
@@ -82,6 +87,7 @@ mas "Wireguard", id: 1451685025
 mas "Xcode", id: 497799835
 
 vscode "ms-vscode.cpptools"
+vscode "claude-code"
 vscode "golang.Go"
 vscode "ms-vscode.vscode-typescript-next"
 vscode "ms-python.vscode-pylance"
