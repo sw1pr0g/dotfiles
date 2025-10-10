@@ -157,5 +157,6 @@
   // STOP UPDATING WITHOUT MY DESIRE
   "update.mode": "manual",
   "update.showReleaseNotes": false,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "github.copilot.nextEditSuggestions.enabled": true
 }
