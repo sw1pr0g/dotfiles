@@ -139,7 +139,7 @@ user_pref("uc.hidecontext.unloadactions", true);
 user_pref("zen.sidebar.close-on-blur", false);
 user_pref("zen.splitView.change-on-hover", true);
 user_pref("zen.tab-unloader.enabled", false);
-user_pref("zen.tabs.vertical.right-side", false);
+user_pref("zen.tabs.vertical.right-side", true);
 user_pref("zen.theme.color-prefs.use-workspace-colors", false);
 user_pref("zen.themes.updated-value-observer", true);
 user_pref("zen.urlbar.behavior", "normal");
