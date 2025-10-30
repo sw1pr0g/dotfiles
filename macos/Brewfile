@@ -87,8 +87,9 @@ mas "Wireguard", id: 1451685025
 mas "Xcode", id: 497799835
 
 vscode "ms-vscode.cpptools"
-vscode "claude-code"
 vscode "golang.Go"
 vscode "ms-vscode.vscode-typescript-next"
 vscode "ms-python.vscode-pylance"
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
 vscode "ms-python.python"
