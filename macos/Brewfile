@@ -36,6 +36,8 @@ brew "pinentry"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
+# Copilot CLI assistant tool
+brew "copilot-cli"
 
 # ChatGPT desktop application
 cask "chatgpt"

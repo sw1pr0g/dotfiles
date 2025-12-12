@@ -1,4 +1,5 @@
 Host *
+  IgnoreUnknown UseKeychain
   UseKeychain yes
   AddKeysToAgent yes
   IdentityFile ~/.ssh/sw1pr0g
