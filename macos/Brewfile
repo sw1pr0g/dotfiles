@@ -1,5 +1,7 @@
 # Get a file from HTTP, HTTPS or FTP server
 brew "curl"
+# Gitea command-line tool
+brew "tea"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -71,14 +73,14 @@ cask "mpv"
 cask "spotify"
 # Minimalistic web browser
 cask "zen-browser"
-# Utility to hide the notch
-cask "topnotch" 
 # Open source API development ecosystem
 cask "hoppscotch"
 # Best programming font
 cask "font-fira-code"
 # Open source database management tool
 cask "dbeaver-community"
+# Code Editor
+cask "zed
 
 mas "Delete Apps", id: 1033808943
 mas "GarageBand", id: 682658836

@@ -15,6 +15,8 @@ and [`config/zshrc`](https://github.com/sw1pr0g/dotfiles/blob/dev/config/zshrc)
 See [`firefox/](https://github.com/sw1pr0g/dotfiles/tree/dev/firefox)
 - `vscode` configuration. 
 See [`vscode/`](https://github.com/sw1pr0g/dotfiles/tree/dev/vscode)
+- `zed` configuration.
+See [`zed/`](https://github.com/sw1pr0g/dotfiles/tree/dev/zed)
 
 ## Installation
 
@@ -35,6 +37,15 @@ comment out `run_dotbot 'steps/...'` that you don't need
 ## Zen (firefox based)
 
 ## VSCode
+
+I used JetBrains IDEs. They were powerful and beautiful. But I realized 
+they’re too heavy and overloaded with tools I don’t always need.
+
+Now I’m using [`vscode`](https://github.com/microsoft/vscode), and I love how 
+clean and fast it is. 
+Here’s my current `vscode` setup:
+
+## Zed
 
 I used JetBrains IDEs. They were powerful and beautiful. But I realized 
 they’re too heavy and overloaded with tools I don’t always need.
