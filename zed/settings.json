@@ -3,9 +3,6 @@
     "use_modifier_to_send": true
   },
   "autosave": "on_focus_change",
-  "scrollbar": {
-    "git_diff": true
-  },
   "tabs": {
     "activate_on_close": "history"
   },
@@ -26,11 +23,9 @@
     "button": false
   },
   "scrollbar": {
+    "git_diff": true,
     "show": "always"
   },
-  "title_bar": {
-    "show": false
-  }
   "tab_bar": {
     "show_tab_bar_buttons": false,
     "show_nav_history_buttons": false,
@@ -43,7 +38,7 @@
   "global_lsp_settings": {
     "button": false
   },
-  "enable_language_server": false,
+  "enable_language_server": true,
   "unnecessary_code_fade": 0.2,
   "disable_ai": true,
   "debugger": {
@@ -67,9 +62,9 @@
   "scroll_beyond_last_line": "off",
   "auto_update": false,
   "title_bar": {
-    "show": "hide_in_full_screen",
+    "show_menus": false,
     "show_branch_name": true,
-    "show_project_items": false,
+    "show_project_items": true,
     "show_branch_icon": false,
     "show_onboarding_banner": false,
     "show_user_picture": false,
