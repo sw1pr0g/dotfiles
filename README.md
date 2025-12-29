@@ -3,20 +3,20 @@
 ## Contents
 
 - `macos` settings including `brew` dependencies. 
-See [`macos/`](https://github.com/sw1pr0g/dotfiles/blob/dev/macos/settings.sh)
+See [`macos/`](https://github.com/sw1pr0g/dotfiles/blob/main/macos/settings.sh)
 - `linux` settings including `flatpak` dependencies. 
-See [`linux/`](https://github.com/sw1pr0g/dotfiles/blob/dev/linux)
+See [`linux/`](https://github.com/sw1pr0g/dotfiles/blob/main/linux)
 <!-- - `brew` dependencies including: applications, fonts, etc. 
-See [`macos/Brewfile`](https://github.com/sw1pr0g/dotfiles/blob/dev/macos/Brewfile) -->
+See [`macos/Brewfile`](https://github.com/sw1pr0g/dotfiles/blob/main/macos/Brewfile) -->
 - shell configuration. 
-See [`shell/`](https://github.com/sw1pr0g/dotfiles/tree/dev/shell) 
-and [`config/zshrc`](https://github.com/sw1pr0g/dotfiles/blob/dev/config/zshrc)
+See [`shell/`](https://github.com/sw1pr0g/dotfiles/tree/main/shell) 
+and [`config/zshrc`](https://github.com/sw1pr0g/dotfiles/blob/main/config/zshrc)
 - `zen` configuration. 
-See [`firefox/](https://github.com/sw1pr0g/dotfiles/tree/dev/firefox)
-- `vscode` configuration. 
-See [`vscode/`](https://github.com/sw1pr0g/dotfiles/tree/dev/vscode)
+See [`firefox/](https://github.com/sw1pr0g/dotfiles/tree/main/firefox)
+- `zed` configuration. 
+See [`zed/`](https://github.com/sw1pr0g/dotfiles/tree/main/zed)
 - `zed` configuration.
-See [`zed/`](https://github.com/sw1pr0g/dotfiles/tree/dev/zed)
+See [`zed/`](https://github.com/sw1pr0g/dotfiles/tree/main/zed)
 
 ## Installation
 
@@ -24,7 +24,7 @@ Setup is managed [`dotbot`](https://github.com/anishathalye/dotbot/). Follow
 these steps:
 
 1. Decide what you want 
-to [`install`](https://github.com/sw1pr0g/dotfiles/tree/dev/install): 
+to [`install`](https://github.com/sw1pr0g/dotfiles/tree/main/install): 
 comment out `run_dotbot 'steps/...'` that you don't need
 2. Run: `bash ./install`
 
@@ -41,9 +41,9 @@ comment out `run_dotbot 'steps/...'` that you don't need
 I used JetBrains IDEs. They were powerful and beautiful. But I realized 
 they’re too heavy and overloaded with tools I don’t always need.
 
-Now I’m using [`vscode`](https://github.com/microsoft/vscode), and I love how 
+Now I’m using [`zed`](https://github.com/zed-industries/zed), and I love how 
 clean and fast it is. 
-Here’s my current `vscode` setup:
+Here’s my current `zed` setup:
 
 ## Zed
 
@@ -67,4 +67,3 @@ Here's the full list:
 ## License
 
 [WTFPL](http://www.wtfpl.net) - DO WHAT THE FUCK YOU WANT TO
- 

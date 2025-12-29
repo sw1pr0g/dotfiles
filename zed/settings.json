@@ -1,63 +1,62 @@
 {
   "agent": {
-    "use_modifier_to_send": true
+    "use_modifier_to_send": true,
   },
   "autosave": "on_focus_change",
   "tabs": {
-    "activate_on_close": "history"
+    "activate_on_close": "history",
   },
   "git": {
     "inline_blame": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "gutter": {
     "line_numbers": true,
     "folds": false,
-    "code_actions": false,
     "runnables": false,
     "breakpoints": false,
-    "min_line_number_digits": 0
+    "min_line_number_digits": 0,
   },
   "notification_panel": {
-    "button": false
+    "button": false,
   },
   "scrollbar": {
     "git_diff": true,
-    "show": "always"
+    "show": "always",
   },
   "tab_bar": {
     "show_tab_bar_buttons": false,
     "show_nav_history_buttons": false,
-    "show": false
+    "show": false,
   },
   "features": {
-    "edit_prediction_provider": "none"
+    "edit_prediction_provider": "none",
   },
 
   "global_lsp_settings": {
-    "button": false
+    "button": false,
   },
   "enable_language_server": true,
   "unnecessary_code_fade": 0.2,
   "disable_ai": true,
   "debugger": {
-    "button": false
+    "button": false,
   },
   "search": {
-    "button": false
+    "button": false,
   },
   "git_panel": {
-    "button": false
+    "button": false,
   },
   "file_finder": {
-    "git_status": true
+    "git_status": true,
   },
   "diagnostics": {
-    "button": true
+    "button": true,
   },
   "terminal": {
-    "button": false
+    "button": false,
   },
   "scroll_beyond_last_line": "off",
   "auto_update": false,
@@ -68,40 +67,40 @@
     "show_branch_icon": false,
     "show_onboarding_banner": false,
     "show_user_picture": false,
-    "show_sign_in": false
+    "show_sign_in": false,
   },
   "status_bar": {
-    "cursor_position_button": true
+    "cursor_position_button": true,
   },
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": false,
-    "selections_menu": false
+    "selections_menu": false,
   },
   "project_panel": {
     "button": false,
-    "dock": "right"
+    "dock": "right",
   },
   "cursor_blink": false,
   "collaboration_panel": {
     "button": false,
-    "dock": "right"
+    "dock": "right",
   },
   "outline_panel": {
     "dock": "right",
-    "button": false
+    "button": false,
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "icon_theme": {
     "mode": "system",
     "light": "Zed (Default)",
-    "dark": "Zed (Default)"
+    "dark": "Zed (Default)",
   },
   "ui_font_size": 14,
   "buffer_font_size": 14,
   "buffer_font_family": "Fira Code",
-  "theme": "macOS Classic Dark"
+  "theme": "macOS Classic Dark",
 }

@@ -24,8 +24,6 @@ brew "go"
 brew "hugo"
 # Python version management
 brew "pyenv"
-# Python package installer and resolver
-brew "poetry"
 # Extremely fast Python package installer and resolver
 brew "uv"
 # UNIX shell (command interpreter)
@@ -38,27 +36,19 @@ brew "pinentry"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
-# Copilot CLI assistant tool
-brew "copilot-cli"
 
-# ChatGPT desktop application
-cask "chatgpt"
-# Terminal AI code assistant
-cask "claude-code"
 # Universal web browser
 cask "google-chrome"
 # Voice and text chat
 cask "discord"
 # Containerized app platform
-cask "docker"
+cask "docker-desktop"
 # Clipboard manager
 cask "maccy"
 # Live streaming and screen recording
 cask "obs"
 # Messaging app
 cask "telegram"
-# Code editor
-cask "visual-studio-code"
 # Flash OS images to drives
 cask "balenaetcher"
 # Virtual machines and emulators
@@ -68,11 +58,11 @@ cask "rocket-chat"
 # BitTorrent client
 cask "qbittorrent"
 # Open source media player
-cask "mpv"
+cask "stolendata-mpv"
 # Spotify media player
 cask "spotify"
 # Minimalistic web browser
-cask "zen-browser"
+cask "zen"
 # Open source API development ecosystem
 cask "hoppscotch"
 # Best programming font
@@ -80,7 +70,11 @@ cask "font-fira-code"
 # Open source database management tool
 cask "dbeaver-community"
 # Code Editor
-cask "zed
+cask "zed"
+# Copilot CLI assistant tool
+cask "copilot-cli"
+# Transfer files over local network
+cask "localsend"
 
 mas "Delete Apps", id: 1033808943
 mas "GarageBand", id: 682658836
@@ -89,11 +83,3 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Wireguard", id: 1451685025
 mas "Xcode", id: 497799835
-
-vscode "ms-vscode.cpptools"
-vscode "golang.Go"
-vscode "ms-vscode.vscode-typescript-next"
-vscode "ms-python.vscode-pylance"
-vscode "GitHub.copilot"
-vscode "GitHub.copilot-chat"
-vscode "ms-python.python"
