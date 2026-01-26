@@ -1,0 +1,219 @@
+{
+  // Debug
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.javascript.codelens.npmScripts": "never",
+  "debug.console.closeOnEnd": true,
+
+  // Editor
+  "editor.accessibilitySupport": "off",
+  "editor.codeLens": true,
+  "editor.glyphMargin": false,  // hide breakpoints
+  "editor.colorDecorators": false,
+  "editor.cursorBlinking": "solid",
+  "editor.dragAndDrop": false,
+  "editor.folding": false,
+  "editor.showFoldingControls": "mouseover",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.renderLineHighlight": "none",
+  "editor.hideCursorInOverviewRuler": false,
+  "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.renderWhitespace": "selection",
+  "editor.overviewRulerBorder": false,
+  "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": false,
+  "editor.snippetSuggestions": "none",
+  "editor.cursorSurroundingLines": 3,
+  "editor.useTabStops": true,
+  "editor.formatOnPaste": false,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "editor.stickyScroll.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+
+  // Editor - Go To Location
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  // Code modifying
+  "editor.autoClosingOvertype": "never",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabCompletion": "on",
+  "editor.suggentSelection": "recentlyUsed",
+  "editor.suggest.localityBonux": true,
+  "editor.formatOnType": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.detectIndentation": false,
+  "editor.guides.indentation": false,
+  "editor.pasteAs.preferences": ["text.plain"],
+  "chat.agent.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  // Search
+  "search.quickAccess.preserveInput": true,
+  "search.quickOpen.includeSymbols": false,
+  "search.quickOpen.history.filterSortOrder": "recency",
+  "workbench.quickOpen.preserveInput": false,
+
+  // Per-language UI settings:
+  "[css]": {
+    "editor.colorDecorators": true,
+  },
+  "[jsonc]": {  // for vscode theme editing
+    "editor.colorDecorators": true,
+  },
+
+  // Explorer
+  "explorer.openEditors.visible": 1,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
+
+  // Workbench
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "medium",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.highlightModifiedTabs": false,
+  "workbench.editor.showIcons": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.decorations.colors": false,
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.hover.delay": 10000,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.sideBar.location": "right",
+
+  // Files:
+  "files.associations": {
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    "*.pyi": "python",
+    "*.bats": "shellscript",
+  },
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.DS_Store": true,
+
+    "**/node_modules": true,
+    "**/bower_components": true,
+
+    "**/__pycache__": true,
+    "**/.cache": true,
+    "**/.idea": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.venv": true,
+    "**/.coverage": true,
+    "**/*.py[co]": true,
+    "**/htmlcoverage": true,
+    "**/docs/build": true,
+  },
+
+  // DON'T WATCH TO ME
+  "telemetry.telemetryLevel": "off",
+
+  // Terminal:
+  "terminal.integrated.defaultLocation": "editor",
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "accessibility.signals.terminalBell": {
+    "sound": "off",
+    "announcement": "off",
+  },
+  "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.fontLigatures.enabled": false,
+  "terminal.integrated.sendKeybindingsToShell": true,
+
+  // Window
+  "window.commandCenter": false,
+  "window.clickThroughInactive": false,
+  "window.newWindowDimensions": "maximized",
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+
+  // Git
+  "git.autofetch": false,
+  "git.autorefresh": true,
+  "git.showInlineOpenFileAction": false,
+  "git.decorations.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+
+  // Python
+  "python.analysis.completeFunctionParens": false,
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.addHoverSummaries": false,
+  "python.analysis.autoSearchPaths": false,
+  "python.createEnvironment.trigger": "off",
+  "python.terminal.activateEnvInCurrentTerminal": false,
+  "python.terminal.activateEnvironment": false,
+  "python.languageServer": "Pylance",
+  "python.experiments.enabled": false,
+  "python.testing.autoTestDiscoverOnSaveEnabled": false,
+
+  // TypeScript / JavaScript
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.suggest.autoImports": false,
+  "javascript.suggest.autoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  // Notebook
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+
+  // Merge conflicts
+  "merge-conflict.autoNavigateNextConflict.enabled": false,
+
+  // Problems panel
+  "problems.decorations.enabled": true,
+
+  // DON'T RECOMMEND ME EXTENSIONS
+  "extensions.ignoreRecommendations": true,
+
+  // Hide unwanted elements from the UI:
+  "custom-ui-style.stylesheet": {
+    // Hide extra items:
+    ".monaco-toolbar, .quick-input-list .scrollbar, .quick-input-list .action-label": {
+      "visibility": "hidden !important",
+      "display": "none !important",
+    },
+    // Center the title with the filename:
+    ".monaco-workbench .editor-group-container>.title>.label-container>.title-label>.monaco-icon-label-container": {
+      "margin-left": "50px !important",
+    },
+    // Offset terminal title:
+    ".composite.title.has-composite-bar": {
+      "margin-left": "50px !important",
+    },
+    // Remove "Merge in merge editor" button
+    ".floating-click-widget": {
+      "visibility": "hidden !important",
+      "display": "none !important",
+    },
+  },
+
+  // STOP UPDATING WITHOUT MY DESIRE
+  "update.mode": "manual",
+  "update.showReleaseNotes": false,
+  
+}

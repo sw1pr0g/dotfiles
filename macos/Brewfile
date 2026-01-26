@@ -83,3 +83,12 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Wireguard", id: 1451685025
 mas "Xcode", id: 497799835
+
+vscode "editorconfig.editorconfig"
+vscode "ms-vscode.cpptools"
+vscode "golang.Go"
+vscode "ms-vscode.vscode-typescript-next"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"

@@ -13,10 +13,9 @@ See [`shell/`](https://github.com/sw1pr0g/dotfiles/tree/main/shell)
 and [`config/zshrc`](https://github.com/sw1pr0g/dotfiles/blob/main/config/zshrc)
 - `zen` configuration. 
 See [`firefox/](https://github.com/sw1pr0g/dotfiles/tree/main/firefox)
-- `zed` configuration. 
-See [`zed/`](https://github.com/sw1pr0g/dotfiles/tree/main/zed)
-- `zed` configuration.
-See [`zed/`](https://github.com/sw1pr0g/dotfiles/tree/main/zed)
+- `vscode` configuration. 
+See [`vscode/`](https://github.com/sw1pr0g/dotfiles/tree/main/vscode)
+
 
 ## Installation
 
@@ -41,16 +40,7 @@ comment out `run_dotbot 'steps/...'` that you don't need
 I used JetBrains IDEs. They were powerful and beautiful. But I realized 
 they’re too heavy and overloaded with tools I don’t always need.
 
-Now I’m using [`zed`](https://github.com/zed-industries/zed), and I love how 
-clean and fast it is. 
-Here’s my current `zed` setup:
-
-## Zed
-
-I used JetBrains IDEs. They were powerful and beautiful. But I realized 
-they’re too heavy and overloaded with tools I don’t always need.
-
-Now I’m using [`vscode`](https://github.com/microsoft/vscode), and I love how 
+Now I’m using [`vscode`](https://github.com/zed-industries/zed), and I love how 
 clean and fast it is. 
 Here’s my current `vscode` setup:
 
