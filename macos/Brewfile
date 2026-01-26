@@ -70,7 +70,7 @@ cask "font-fira-code"
 # Open source database management tool
 cask "dbeaver-community"
 # Code Editor
-cask "zed"
+cask "visual-studio-code"
 # Copilot CLI assistant tool
 cask "copilot-cli"
 # Transfer files over local network
