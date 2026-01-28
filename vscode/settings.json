@@ -190,30 +190,8 @@
   // DON'T RECOMMEND ME EXTENSIONS
   "extensions.ignoreRecommendations": true,
 
-  // Hide unwanted elements from the UI:
-  "custom-ui-style.stylesheet": {
-    // Hide extra items:
-    ".monaco-toolbar, .quick-input-list .scrollbar, .quick-input-list .action-label": {
-      "visibility": "hidden !important",
-      "display": "none !important",
-    },
-    // Center the title with the filename:
-    ".monaco-workbench .editor-group-container>.title>.label-container>.title-label>.monaco-icon-label-container": {
-      "margin-left": "50px !important",
-    },
-    // Offset terminal title:
-    ".composite.title.has-composite-bar": {
-      "margin-left": "50px !important",
-    },
-    // Remove "Merge in merge editor" button
-    ".floating-click-widget": {
-      "visibility": "hidden !important",
-      "display": "none !important",
-    },
-  },
-
   // STOP UPDATING WITHOUT MY DESIRE
   "update.mode": "manual",
   "update.showReleaseNotes": false,
-  
+
 }
