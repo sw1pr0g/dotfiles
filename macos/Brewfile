@@ -37,6 +37,8 @@ brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
 
+# Android File Transfer
+cask "android-file-transfer"
 # Universal web browser
 cask "google-chrome"
 # Voice and text chat
@@ -57,8 +59,6 @@ cask "utm"
 cask "rocket-chat"
 # BitTorrent client
 cask "qbittorrent"
-# Open source media player
-cask "stolendata-mpv"
 # Spotify media player
 cask "spotify"
 # Minimalistic web browser
@@ -75,6 +75,8 @@ cask "visual-studio-code"
 cask "copilot-cli"
 # Transfer files over local network
 cask "localsend"
+# Run local LLMs
+cask "ollama"
 
 mas "Delete Apps", id: 1033808943
 mas "GarageBand", id: 682658836
@@ -86,9 +88,8 @@ mas "Xcode", id: 497799835
 
 vscode "editorconfig.editorconfig"
 vscode "ms-vscode.cpptools"
+vscode "LeonardSSH.vscord"
 vscode "golang.Go"
 vscode "ms-vscode.vscode-typescript-next"
 vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "GitHub.copilot"
-vscode "GitHub.copilot-chat"
+vscode "ms-python.vscode-pylance

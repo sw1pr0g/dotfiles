@@ -54,9 +54,8 @@
   "editor.detectIndentation": false,
   "editor.guides.indentation": false,
   "editor.pasteAs.preferences": ["text.plain"],
-  "chat.agent.enabled": true,
-  "github.copilot.nextEditSuggestions.enabled": true,
-
+  "chat.agent.enabled": false,
+  
   // Search
   "search.quickAccess.preserveInput": true,
   "search.quickOpen.includeSymbols": false,
@@ -176,6 +175,15 @@
   "javascript.suggest.autoImports": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
 
+  // Vscord
+  "vscord.status.details.enabled": false,
+  "vscord.status.details.idle.enabled": false,
+  "vscord.status.state.debugging.enabled": false,
+  "vscord.status.state.idle.enabled": false,
+  "vscord.status.state.text.editing": "Working on {git_repo}",
+  "vscord.status.state.text.viewing": "Viewing {git_repo}",
+
+
   // Notebook
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -192,6 +200,5 @@
 
   // STOP UPDATING WITHOUT MY DESIRE
   "update.mode": "manual",
-  "update.showReleaseNotes": false,
 
 }
