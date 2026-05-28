@@ -1,85 +1,94 @@
 # Get a file from HTTP, HTTPS or FTP server
 brew "curl"
-# Gitea command-line tool
-brew "tea"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
 brew "git"
-# GitLab command-line tool
-brew "glab"
-# Mac App Store command-line interface
-brew "mas"
-# Free (GNU) replacement for Pico text editor
-brew "nano"
-# Code formatting tool for C/C++
-brew "clang-format"
-# Platform built on V8 to build network applications
-brew "node"
-# Manage multiple Node.js versions
-brew "nvm"
-# Go programming language
-brew "go"
-# Configurable static site generator
-brew "hugo"
-# Python version management
-brew "pyenv"
-# Extremely fast Python package installer and resolver
-brew "uv"
-# UNIX shell (command interpreter)
-brew "zsh"
 # Cryptographic library based on the code from GnuPG
 brew "libgcrypt"
 # Passphrase entry dialog utilizing the Assuan protocol
 brew "pinentry"
-# GNU Pretty Good Privacy (PGP) package
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Go programming language
+brew "go"
 # Library access to GnuPG
 brew "gpgme"
+# Postgres C API library
+brwe "libpq"
+# Mac App Store command-line interface
+brew "mas"
+# Free (GNU) replacement for Pico text editor
+brew "nano"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
+# AI coding agent, built for the terminal
+brew "opencode"
+# Python package management tool
+brew "poetry"
+# Ruby version manager
+brew "rbenv"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Extremely fast Python package installer and resolver
+brew "uv"
+# Internet file retriever
+brew "wget"
+# UNIX shell (command interpreter)
+brew "zsh"
 
+
+# VPN client
+cask "amneziavpn"
 # Android File Transfer
 cask "android-file-transfer"
-# Universal web browser
-cask "google-chrome"
+# Tools for building Android applications
+cask "android-studio"
+# Tool to flash OS images to SD cards & USB drives
+cask "balena-etcher"
+# Display management tool
+cask "betterdisplay"
+# 3D creation suite
+cask "blender"
+# Secure and reliable decentralised instant messenger
+cask "deltachat"
 # Voice and text chat
 cask "discord"
 # Containerized app platform
 cask "docker-desktop"
+# Best programming font
+cask "font-fira-code"
+# C# scripting capable version of Godot game engine
+cask "godot"
+# Universal web browser
+cask "google-chrome"
+# Open source API development ecosystem
+cask "hoppscotch"
+# Discover, download, and run local LLMs
+cask "lm-studio"
+# Transfer files over local network
+cask "localsend"
 # Clipboard manager
 cask "maccy"
 # Live streaming and screen recording
 cask "obs"
-# Messaging app
-cask "telegram"
-# Flash OS images to drives
-cask "balenaetcher"
-# Virtual machines and emulators
-cask "utm"
-# Open source team messenger
-cask "rocket-chat"
 # BitTorrent client
 cask "qbittorrent"
-# Spotify media player
-cask "spotify"
-# Minimalistic web browser
-cask "zen"
-# Open source API development ecosystem
-cask "hoppscotch"
-# Best programming font
-cask "font-fira-code"
-# Open source database management tool
-cask "dbeaver-community"
-# Code Editor
+# Open source team messenger
+cask "rocket-chat"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# Utility to hide the notch
+cask "topnotch"
+# Open-source code editor
 cask "visual-studio-code"
-# Copilot CLI assistant tool
-cask "copilot-cli"
-# Transfer files over local network
-cask "localsend"
-# Run local LLMs
-cask "ollama"
-
+# Gecko based web browser
+cask "zen"
 mas "Delete Apps", id: 1033808943
 mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -87,9 +96,7 @@ mas "Wireguard", id: 1451685025
 mas "Xcode", id: 497799835
 
 vscode "editorconfig.editorconfig"
-vscode "ms-vscode.cpptools"
-vscode "LeonardSSH.vscord"
-vscode "golang.Go"
-vscode "ms-vscode.vscode-typescript-next"
+vscode "golang.go"
 vscode "ms-python.python"
-vscode "ms-python.vscode-pylance
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode.vscode-typescript-next"
