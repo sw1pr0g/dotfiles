@@ -1,5 +1,13 @@
 [
     {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+            "text": "\u001b\r"
+        }
+    },
+    {
         "key": "cmd+k cmd+e",
         "command": "workbench.files.action.focusFilesExplorer",
         "when": "!view.workbench.explorer.visible"

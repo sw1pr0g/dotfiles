@@ -15,7 +15,7 @@
   "editor.showFoldingControls": "mouseover",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 18,
   "editor.renderLineHighlight": "none",
   "editor.hideCursorInOverviewRuler": false,
   "editor.minimap.enabled": false,
@@ -55,7 +55,7 @@
   "editor.guides.indentation": false,
   "editor.pasteAs.preferences": ["text.plain"],
   "chat.agent.enabled": false,
-  
+
   // Search
   "search.quickAccess.preserveInput": true,
   "search.quickOpen.includeSymbols": false,
@@ -199,6 +199,8 @@
   "extensions.ignoreRecommendations": true,
 
   // STOP UPDATING WITHOUT MY DESIRE
-  "update.mode": "manual",
+"update.mode": "manual",
+"window.systemColorTheme": "auto",
+"window.autoDetectColorScheme": true,
 
 }

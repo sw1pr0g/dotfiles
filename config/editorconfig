@@ -12,8 +12,5 @@ indent_style = space
 insert_final_newline = true
 indent_size = 2
 
-[*.py]
-indent_size = 4
-
-[*.go]
+[*.{py,go,c,h}]
 indent_size = 4
